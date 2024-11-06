@@ -1,7 +1,7 @@
-package com.project.questapp.service;
+package com.example.demo.service;
 
 import java.util.List;
-import com.project.questapp.model.Product;
+import com.example.demo.model.Product;
 
 public interface ProductService {
 	

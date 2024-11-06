@@ -1,11 +1,11 @@
-package com.project.questapp.serviceImpl;
+package com.example.demo.serviceImpl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.project.questapp.model.Product;
-import com.project.questapp.repository.ProductRepo;
-import com.project.questapp.service.ProductService;
+import com.example.demo.model.Product;
+import com.example.demo.repository.ProductRepo;
+import com.example.demo.service.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService {
@@ -31,7 +31,7 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public String deleteProduct(Product product) {
 		 productRepo.delete(product);
-		 return "product silindi id:"+product.getId();
+		 return "product silindi id:" + product.getId();
 	}
 
 	@Override
