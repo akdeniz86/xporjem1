@@ -23,6 +23,7 @@ public class Product {
 	Long id;
 	String firstName;
 	String lastName;
+	
 	String email;
 	
 //	public Long getId() {
